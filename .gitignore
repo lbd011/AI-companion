@@ -1,0 +1,26 @@
+# ---- 本地虚拟环境（含第三方包，不入库） ----
+.venv/
+venv/
+ENV/
+
+# ---- 会话聊天记录（用户数据，不入库） ----
+sessions/
+
+# ---- IDE 本地配置 ----
+.idea/
+
+# ---- Python 缓存与构建产物 ----
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+
+# ---- 练习脚本生成的输出 ----
+演示1.txt
+
+# ---- 系统临时文件 ----
+Thumbs.db
+.DS_Store
+desktop.ini
